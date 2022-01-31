@@ -15,7 +15,7 @@
 
     <style>
         :root {
-            font-size: 10px
+            font-size: 12px
         }
 
         body {
@@ -31,29 +31,37 @@
             color: #bec411;
             text-decoration: underline;
         }
+        code{
+            color: #3f1888;
+            text-decoration: underline;
+        }
+        h4{
+            color: chocolate;
+        }
     </style>
 </head>
 
 <body class="text-light">
-<div class="contianer m-auto px-3">
-    <h1 class="text-center text-danger fw-bold p-3">Hello world!</h1>
-    <h6 class="text-center text-capitalize text-secondary">
-        Links of Web Developement
-        <a href="https://tr.wikipedia.org/wiki/Tim_Berners-Lee" class="d-block">
-            tributes to tim berners-lee</a>
-    </h6>
+<div class="container m-auto px-3">
+    <h1 class="text-center fw-bold p-3">Hello world!</h1>
+    <p>
+        The first HTML site created on August 6, 1991.
+        <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">==></a>
+    </p>
+    <p>
+        "The Web turned data into the gold of the 21st century" Tim Berners-Lee:
+        <a href="https://tr.wikipedia.org/wiki/Tim_Berners-Lee">==></a>
+    </p>
+    <hr>
 
     <div class="row">
         <!-- 1- basics ***************************************************** -->
         <div class="col-12 col-lg-3">
             <h2 class="py-2"><code>learn</code></h2>
-            <h4 class="text-secondary">basics</h4>
+            <h4>basics</h4>
             <ol type="1">
                 <li>
-                    <a
-                            href="https://developer.mozilla.org/en-US/docs/Web"
-                            target="_blank"
-                    >
+                    <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">
                         MDN - Web technology
                     </a>
                 </li>
@@ -64,7 +72,7 @@
                     <a href="" target="_blank"></a>
                 </li>
             </ol>
-            <h4 class="text-secondary">all</h4>
+            <h4>all</h4>
             <ol type="1">
                 <li>
                     <a href="https://www.w3schools.com" target="_blank">
@@ -72,10 +80,7 @@
                     </a>
                 </li>
                 <li>
-                    <a
-                            href="https://developer.mozilla.org/en-US/docs/Learn"
-                            target="_blank"
-                    >
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">
                         mdn/Learn
                     </a>
                 </li>
@@ -97,7 +102,7 @@
                 </li>
             </ol>
 
-            <h4 class="text-secondary">css</h4>
+            <h4>css</h4>
             <ol type="1">
                 <li>
                     <a href="" target="_blank"></a>
@@ -107,20 +112,16 @@
                 </li>
             </ol>
 
-            <h4 class="text-secondary">js</h4>
+            <h4>js</h4>
             <ol type="1">
                 <li>
-                    <a href="https://javascript.info" target="_blank">
-                        javascript.info
-                    </a>
+                    <a href="https://javascript.info" target="_blank">javascript.info</a>
                 </li>
                 <li>
                     <a href="https://www.jstips.co" target="_blank"> js.tips </a>
                 </li>
                 <li>
-                    <a href="https://www.javascript.com" target="_blank">
-                        javascript.com
-                    </a>
+                    <a href="https://www.javascript.com" target="_blank">javascript.com</a>
                 </li>
                 <li>
                     <a href="https://reactjs.org" target="_blank"> reactjs.org </a>
@@ -132,42 +133,42 @@
                     <a href="" target="_blank"></a>
                 </li>
             </ol>
+
+            <h4>mobile</h4>
+            <ol>
+                <li>
+                    <a href="https://flutter.dev" target="_blank">https://flutter.dev</a>
+                </li>
+            </ol>
         </div>
 
         <!-- 3 - tools ***************************************************** -->
         <div class="col-12 col-lg-3">
             <h2 class="py-2"><code>tools</code></h2>
-
-            <h4 class="text-secondary">library-framework</h4>
+            <h4>for answers</h4>
             <ol type="1">
                 <li>
-                    <a href="https://www.getbootstrap.com" target="_blank">
-                        bootstrap
-                    </a>
+                    <a href="https://stackoverflow.com" target="_blank">stackoverflow.com</a>
                 </li>
-                <li>
-                    <a href="https://freefrontend.com" target="_blank">
-                        freefrontend.com
-                    </a>
-                </li>
+            </ol>
 
+
+            <h4>library-framework</h4>
+            <ol type="1">
                 <li>
-                    <a href="https://codepen.io/trending" target="_blank">
-                        codepen
-                    </a>
+                    <a href="https://www.getbootstrap.com" target="_blank">bootstrap</a>
                 </li>
                 <li>
-                    <a href="http://kenwheeler.github.io/slick/" target="_blank">
-                        slick carousel
-                    </a>
+                    <a href="https://freefrontend.com" target="_blank">freefrontend.com</a>
                 </li>
                 <li>
-                    <a
-                            href="https://owlcarousel2.github.io/OwlCarousel2/"
-                            target="_blank"
-                    >
-                        owl carousel
-                    </a>
+                    <a href="https://codepen.io/trending" target="_blank">codepen</a>
+                </li>
+                <li>
+                    <a href="http://kenwheeler.github.io/slick/" target="_blank">slick carousel</a>
+                </li>
+                <li>
+                    <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">owl carousel</a>
                 </li>
                 <li>
                     <a href="" target="_blank"></a>
@@ -177,7 +178,7 @@
                 </li>
             </ol>
 
-            <h4 class="text-secondary">icons</h4>
+            <h4>icons</h4>
             <ol type="1">
                 <li>
                     <a href="https://css.gg" target="_blank">css.gg</a>
@@ -195,34 +196,22 @@
                     <a href="https://heroicons.com" target="_blank">heroicons.com</a>
                 </li>
                 <li>
-                    <a href="https://simpleicons.org" target="_blank">
-                        simpleicons.org
-                    </a>
+                    <a href="https://simpleicons.org" target="_blank">simpleicons.org</a>
                 </li>
                 <li>
-                    <a href="https://tablericons.com" target="_blank">
-                        tablericons.com
-                    </a>
+                    <a href="https://tablericons.com" target="_blank">tablericons.com</a>
                 </li>
                 <li>
-                    <a href="https://iconmonstr.com" target="_blank">
-                        iconmonstr.com
-                    </a>
+                    <a href="https://iconmonstr.com" target="_blank">iconmonstr.com</a>
                 </li>
                 <li>
-                    <a href="https://smashicons.com" target="_blank">
-                        smashicons.com
-                    </a>
+                    <a href="https://smashicons.com" target="_blank">smashicons.com</a>
                 </li>
                 <li>
-                    <a href="https://fontawesome.com" target="_blank">
-                        fontawesome.com
-                    </a>
+                    <a href="https://fontawesome.com" target="_blank">fontawesome.com</a>
                 </li>
                 <li>
-                    <a href="https://thenounproject.com" target="_blank">
-                        thenounproject.com
-                    </a>
+                    <a href="https://thenounproject.com" target="_blank">thenounproject.com</a>
                 </li>
                 <li>
                     <a href="" target="_blank"></a>
@@ -232,7 +221,7 @@
                 </li>
             </ol>
 
-            <h4 class="text-secondary">colors</h4>
+            <h4>colors</h4>
             <ol type="1">
                 <li>
                     <a href="https://coolors.co" target="_blank"> coolors.co </a>
@@ -250,109 +239,67 @@
         </div>
         <div class="col-12 col-lg-3">
             <h2 class="py-2"><code>css tools</code></h2>
-            <h4 class="text-secondary">css animation libraries</h4>
+            <h4>css animation libraries</h4>
             <ol type="1">
                 <li>
-                    <a href="https://css-tricks.com/css-animation-libraries/" target="_blank">
-                        https://css-tricks.com/css-animation-libraries/
-                    </a>
+                    <a href="https://css-tricks.com/css-animation-libraries/" target="_blank">https://css-tricks.com/css-animation-libraries/</a>
                 </li>
                 <li>
-                    <a href="https://freefrontend.com/css-animation-libraries/" target="_blank">
-                        freefrontend.com/css-animation-libraries
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="https://github.com/Martz90/vivify" target="_blank">
-                        vivify github repo
-                    </a>
+                    <a href="https://freefrontend.com/css-animation-libraries/" target="_blank">freefrontend.com/css-animation-libraries</a>
                 </li>
                 <li>
-                    <a href="http://vivify.mkcreative.cz" target="_blank">
-                        vivify
-                    </a>
+                    <a href="https://github.com/Martz90/vivify" target="_blank">vivify github repo</a>
                 </li>
                 <li>
-                    <a href="https://github.com/IanLunn/Hover" target="_blank">
-                        hover css
-                    </a>
+                    <a href="http://vivify.mkcreative.cz" target="_blank">vivify</a>
                 </li>
                 <li>
-                    <a href="https://www.minimamente.com/project/magic/" target="_blank">
-                        magic animations
-                    </a>
+                    <a href="https://github.com/IanLunn/Hover" target="_blank">hover css</a>
                 </li>
                 <li>
-                    <a href="https://tholman.com/obnoxious/" target="_blank">
-                        obnoxious
-                    </a>
+                    <a href="https://www.minimamente.com/project/magic/" target="_blank">magic animations</a>
                 </li>
                 <li>
-                    <a href="https://waitanimate.wstone.uk" target="_blank">
-                        waitanimate
-                    </a>
+                    <a href="https://tholman.com/obnoxious/" target="_blank">obnoxious</a>
                 </li>
                 <li>
-                    <a href="https://github.com/bendc/animateplus" target="_blank">
-                        animateplus
-                    </a>
+                    <a href="https://waitanimate.wstone.uk" target="_blank">waitanimate</a>
                 </li>
                 <li>
-                    <a href="https://animate.style" target="_blank">
-                        animate.css
-                    </a>
+                    <a href="https://github.com/bendc/animateplus" target="_blank">animateplus</a>
                 </li>
                 <li>
-                    <a href="https://github.com/animate-css/animate.css" target="_blank">
-                        animate.css github repo
-                    </a>
+                    <a href="https://animate.style" target="_blank">animate.css</a>
                 </li>
                 <li>
-                    <a href="http://elrumordelaluz.github.io/csshake/" target="_blank">
-                        csshake
-                    </a>
+                    <a href="https://github.com/animate-css/animate.css" target="_blank">animate.css github repo</a>
                 </li>
                 <li>
-                    <a href="https://github.com/foundation/motion-ui" target="_blank">
-                        motion-ui
-                    </a>
+                    <a href="http://elrumordelaluz.github.io/csshake/" target="_blank">csshake</a>
                 </li>
                 <li>
-                    <a href="https://gibbok.github.io/animatelo/" target="_blank">
-                        animatelo
-                    </a>
+                    <a href="https://github.com/foundation/motion-ui" target="_blank">motion-ui</a>
                 </li>
                 <li>
-                    <a href="https://animista.net" target="_blank">
-                        animista
-                    </a>
+                    <a href="https://gibbok.github.io/animatelo/" target="_blank">animatelo</a>
                 </li>
                 <li>
-                    <a href="https://github.com/ThrivingKings/animo" target="_blank">
-                        animo.js
-                    </a>
+                    <a href="https://animista.net" target="_blank">animista</a>
                 </li>
                 <li>
-                    <a href="https://github.com/ShakrMedia/tuesday" target="_blank">
-                        tuesday
-                    </a>
+                    <a href="https://github.com/ThrivingKings/animo" target="_blank">animo.js</a>
                 </li>
                 <li>
-                    <a href="https://github.com/colindresj/saffron" target="_blank">
-                        saffron
-                    </a>
+                    <a href="https://github.com/ShakrMedia/tuesday" target="_blank">tuesday</a>
                 </li>
                 <li>
-                    <a href="https://minimamente.com/example/rocket/" target="_blank">
-                        rocket
-                    </a>
+                    <a href="https://github.com/colindresj/saffron" target="_blank">saffron</a>
                 </li>
                 <li>
-                    <a href="https://github.com/johncch/Anima" target="_blank">
-                        Anima
-                    </a>
+                    <a href="https://minimamente.com/example/rocket/" target="_blank">rocket</a>
+                </li>
+                <li>
+                    <a href="https://github.com/johncch/Anima" target="_blank">Anima</a>
                 </li>
                 <li>
                     <a href="" target="_blank"></a>
@@ -367,50 +314,27 @@
         <div class="col-12 col-lg-3">
             <h2 class="py-2"><code>others</code></h2>
 
-            <h4 class="text-secondary">github repos</h4>
+            <h4>github repos</h4>
             <ol type="1">
                 <li>
-                    <a href="https://github.com/sindresorhus/awesome" target="_blank">
-                        awesome
-                    </a>
+                    <a href="https://github.com/sindresorhus/awesome" target="_blank">awesome</a>
                 </li>
                 <li>
-                    <a
-                            href="https://github.com/ryanmcdermott/clean-code-javascript"
-                            target="_blank"
-                    >
-                        clean code javascript
-                    </a>
+                    <a href="https://github.com/ryanmcdermott/clean-code-javascript" target="_blank">clean code javascript</a>
                 </li>
                 <li>
-                    <a
-                            href="https://github.com/kamranahmedse/developer-roadmap"
-                            target="_blank"
-                    >
-                        developer roadmap
-                    </a>
+                    <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank">developer roadmap</a>
                 </li>
                 <li>
-                    <a
-                            href="https://github.com/leonardomso/33-js-concepts"
-                            target="_blank"
-                    >
-                        33 js concepts
-                    </a>
+                    <a href="https://github.com/leonardomso/33-js-concepts" target="_blank">33 js concepts</a>
                 </li>
                 <li>
-                    <a
-                            href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
-                            target="_blank"
-                    >
+                    <a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit" target="_blank">
                         Best websites a programmer should visit
                     </a>
                 </li>
                 <li>
-                    <a
-                            href="https://github.com/bradtraversy/design-resources-for-developers"
-                            target="_blank"
-                    >
+                    <a href="https://github.com/bradtraversy/design-resources-for-developers" target="_blank">
                         design resources for developers
                     </a>
                 </li>
@@ -422,13 +346,13 @@
                 </li>
             </ol>
 
-            <h4 class="text-secondary">blogs</h4>
+            <h4>blogs</h4>
             <ol type="1">
                 <li>
-                    <a href="https://github.blog">github.blog</a>
+                    <a href="https://github.blog" target="_blank">github.blog</a>
                 </li>
                 <li>
-                    <a href="https://alistapart.com">a list apart</a>
+                    <a href="https://alistapart.com" target="_blank">a list apart</a>
                 </li>
                 <li>
                     <a href="https://css-tricks.com" target="_blank"> css-tricks </a>

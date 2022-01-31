@@ -27,6 +27,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -36,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,7 +61,9 @@
       <workItem from="1643380483326" duration="2100000" />
       <workItem from="1643394443406" duration="6433000" />
       <workItem from="1643438831405" duration="425000" />
-      <workItem from="1643439303201" duration="8676000" />
+      <workItem from="1643439303201" duration="10626000" />
+      <workItem from="1643528504988" duration="2639000" />
+      <workItem from="1643662748384" duration="522000" />
     </task>
     <servers />
   </component>
